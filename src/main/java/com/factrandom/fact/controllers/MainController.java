@@ -13,8 +13,13 @@ public class MainController {
     @Autowired
     ApiService apiService;
 
+    @GetMapping("/")
+    public String showHomePage(){
+       return "index"; 
+    }
+
     @GetMapping("/login")
-    public String showLogin(Model model){
+    public String showLogin(){
         return "login";
     }
 
