@@ -1,8 +1,16 @@
 .container {
-    border: 5px solid #ff002bcf;
     display: flex;
     justify-content: center;
     margin-top: 150px;
 }
 
-h1 { text-align: center;}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+h1 { 
+    border: 5px solid #ff002bcf;
+    text-align: center;
+}
